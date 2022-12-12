@@ -1,4 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './all.css'
 import NavbarAll from './Components/Static/Navbar';
 import Foot from './Components/Static/Footer';
 import Home from './Components/Home';
@@ -14,7 +15,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/Dosen' element={<Dosen />} />
-        <Route path='/Division/:divisi' element={<Asisten />} />
+        <Route path='/Asisten' element={<Asisten />} />
       </Routes>
       <Foot />
     </>
