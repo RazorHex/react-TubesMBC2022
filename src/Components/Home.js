@@ -1,6 +1,6 @@
 import mbc from '../assets/img/mbc logo.png'
 import old_mbc from '../assets/img/logolamambc.png'
-import './Home.css'
+import './css/Home.css'
 
 
 const Home = () => {

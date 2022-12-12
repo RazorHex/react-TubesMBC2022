@@ -1,7 +1,7 @@
 import { NavDropdown, Nav, Navbar, Container } from 'react-bootstrap'
 
 import './Navbar.css';
-import mbc from '../assets/img/mbc logo.png'
+import mbc from '../../assets/img/mbc logo.png'
 
 const NavbarAll = () => {
   return(
@@ -27,16 +27,16 @@ const NavbarAll = () => {
             </NavDropdown.Item>
           </NavDropdown>
           <NavDropdown title="Division" id="division">
-            <NavDropdown.Item href="/cyber">
+            <NavDropdown.Item href="/Division/cyber">
               CyberSecurity
             </NavDropdown.Item>
-            <NavDropdown.Item href="/bigdata">
+            <NavDropdown.Item href="/Division/bigdata">
               Big Data
             </NavDropdown.Item>
-            <NavDropdown.Item href="/gis">
+            <NavDropdown.Item href="/Division/gis">
               GIS
             </NavDropdown.Item>
-            <NavDropdown.Item href='/gametech'>
+            <NavDropdown.Item href='/Division/gametech'>
               GameTech
             </NavDropdown.Item>
           </NavDropdown>
