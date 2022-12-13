@@ -1,5 +1,5 @@
-import './css/Divisi_style.css'
-import './css/Bigdata.css'
+import './css/Bigdata.css';
+import './css/Divisi_style.css';
 
 const Bigdata = () => {
   return (
@@ -20,21 +20,21 @@ const Bigdata = () => {
           <a className="btn btn-primary cbs-button" href="main.html" role="button">Website</a>
         </div>
       </div>
-    </div>
 
-    <div className="main-desc">
-      <h5 className="title-desc">What is "Big Data" ???</h5>
-      <div className="par-desc">
-        <p className="desc-bd">
-          <b><i>Big Data</i></b> is a data set that has a very large volume or size consisting of structured,
-          semi-structured, and unstructured data that can develop over time.
-          <b><i>Big Data</i></b> is also the concept of grouping or collecting data on a large scale, which consists of
-          various types of data, including structured, semi-structured and unstructured data.
-        </p>
+      <div className="main-desc">
+        <h5 className="title-desc">What is "Big Data" ???</h5>
+        <div className="par-desc">
+          <p className="desc-bd">
+            <b><i>Big Data</i></b> is a data set that has a very large volume or size consisting of structured,
+            semi-structured, and unstructured data that can develop over time.
+            <b><i>Big Data</i></b> is also the concept of grouping or collecting data on a large scale, which consists of
+            various types of data, including structured, semi-structured and unstructured data.
+          </p>
+        </div>
       </div>
     </div>
     </>
-  )
-}
+  );
+};
 
 export default Bigdata;

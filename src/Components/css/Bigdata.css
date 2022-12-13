@@ -1,10 +1,8 @@
-body {
+/* body {
   background-image: url('../../assets/img/bd-bg.png');
   background-size: cover;
-}
+} */
 
-h5,
-p,
-li {
+.text-head-desc {
   color: white;
 }

@@ -1,4 +1,4 @@
-import { NavDropdown, Nav, Navbar, Container } from 'react-bootstrap'
+import { NavDropdown, Nav, Navbar, Container, Form } from 'react-bootstrap'
 
 import './Navbar.css';
 import mbc from '../../assets/img/mbc logo.png'
@@ -30,7 +30,7 @@ const NavbarAll = () => {
             <NavDropdown.Item href="/Division/cyber">
               CyberSecurity
             </NavDropdown.Item>
-            <NavDropdown.Item href="/Division/bigdata">
+            <NavDropdown.Item href="/Bigdata">
               Big Data
             </NavDropdown.Item>
             <NavDropdown.Item href="/Division/gis">
@@ -41,6 +41,14 @@ const NavbarAll = () => {
             </NavDropdown.Item>
           </NavDropdown>
         </Nav>
+        <Form className='d-flex'>
+          <Form.Control
+            type='search'
+            placeholder='Skill : Git, Python, Linux, etc'
+            className='me-2'
+            aria-label='search'
+          />
+        </Form>
       </Navbar.Collapse>
     </Container>
   </Navbar>
