@@ -7,6 +7,7 @@ import Dosen from './Components/Dosen';
 import Asisten from './Components/Asisten'
 
 import { Routes, Route } from 'react-router-dom';
+import Bigdata from './Components/Bigdata';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/Dosen' element={<Dosen />} />
         <Route path='/Asisten' element={<Asisten />} />
+        <Route path='/Bigdata' element={<Bigdata />} />
       </Routes>
       <Foot />
     </>

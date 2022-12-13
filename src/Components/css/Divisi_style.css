@@ -1,0 +1,36 @@
+.title h1,
+span {
+  font-family: 'Racing Sans One', cursive;
+  color: white;
+}
+
+.divs-name {
+  color: #ff1f1f;
+  font-size: 80px;
+  margin-left: 50px;
+}
+
+.divisi {
+  font-size: 80px;
+}
+
+.cbs-button {
+  margin-bottom: 25px;
+}
+
+.text-head-desc {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.title {
+  margin-left: 50px;
+  margin-right: 100px;
+}
+
+.par-desc,
+.title-desc {
+  margin-left: 50px;
+  margin-right: 100px;
+  color: white;
+}

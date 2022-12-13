@@ -5,7 +5,7 @@ import mbc from '../../assets/img/mbc logo.png'
 
 const NavbarAll = () => {
   return(
-  <Navbar bg="light" expand="lg">
+  <Navbar bg="light" expand="lg" className='header'>
     <Container fluid>
       <Navbar.Brand href="#home">
         <a href="main.html" class="navbar-brand"><img src={mbc} alt="mbc logo" width="200" /></a>
