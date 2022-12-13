@@ -1,4 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'https://fonts.googleapis.com'
+import 'https://fonts.gstatic.com'
 import './all.css'
 import NavbarAll from './Components/Static/Navbar';
 import Foot from './Components/Static/Footer';
